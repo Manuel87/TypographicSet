@@ -8,7 +8,7 @@
 
 ----------------------------------
 #### Usecase
-- live example: https://shop.typeproject.com/en/products/fitfont/
+- live example: https://shop.typeproject.com/en/products/fitfont/ > [x] Combine with Latin
 
 
 ----------------------------------
