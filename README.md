@@ -34,16 +34,16 @@
 	font-style: 			normal;
 	font-weight-default: 	400;
 
-	[Default, Arabic] {  // Defining the base (primary script/font)
+	[Default, Arabic] {  /* Defining the base (primary script/font) */
 		src: url('Nassim.ttf')[...];
-		font-scale: 		1000; // default scale
+		font-scale: 		1000; /* default scale */
 		font-baseline: 		250;
 		font-weight: 		400;
 	}
 
-	[Latin] {  // all Latin characters get formated in Minion
+	[Latin] {  /* all Latin characters get formated in Minion */
 		src: url('Minion.ttf')[...];
-		font-scale:  		920; // scaled down to 92% matching the arabic
+		font-scale:  		920; /* scaled down to 92% matching the arabic */
 		font-baseline: 		250;
 		font-weight: 		500;
 	}
@@ -58,9 +58,9 @@ body {
 	font-weight: 400;
 }
 
-strong, b { font-weight: 700; } // strong emphasis
+strong, b { font-weight: 700; } /* strong emphasis */
 
-em, i { font-style: italic; } //
+em, i { font-style: italic; }
 ```
 
 ---------------------------------------------------------------------
@@ -77,7 +77,7 @@ Latin, Arabic, Chinese, Italics, Advanced Matching
 @font-face {
 	font-family: 				"MyTypographicSet"
 	font-style: 				normal;
-	font-weight-default: 		400;
+	font-weight-default: 			400;
 	script-order: 				"Latin, Arabic, Chinese, Japanese"
 
 	[Default, Latin] {
@@ -112,12 +112,12 @@ Latin, Arabic, Chinese, Italics, Advanced Matching
 @font-face {
 	font-family: 			"MyTypographicSet"
 	font-style: 			italic;
-	font-weight-default: 	400;
+	font-weight-default: 		400;
 	script-order: 			"Latin, Arabic, Chinese, Japanese"
 
 	[Default, Latin] {
 			src: url('Minion-Italic.ttf')[...];
-			font-scale[x]:  		500; //font-scale: 	1000 (= no change);
+			font-scale[x]:  		500; /* font-scale: 	1000 (= no change); */
 			font-[A–Z,0–9,.case]-size: 	700;
 			font-[.smcp]-size: 			570;
 			font-baseline: 			250;
@@ -160,7 +160,7 @@ em, i {
 
 ```
 
-PS: All fonts in the complex example are variable fonts, containing a weight- and a contrast-axis; and the Latin additionally has a separate height-axes.
+PS: All fonts in the complex example are variable fonts, containing a weight- and a contrast-axis; and the Latin additionally has a separate height-axis.
 
 
 
