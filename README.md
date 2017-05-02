@@ -32,7 +32,7 @@
 @font-face {
 	font-family: 			"MyTypographicSet"
 	font-style: 			normal;
-	font-weight-default: 	400;
+	font-weight-default: 		400;
 
 	[Default, Arabic] {  /* Defining the base (primary script/font) */
 		src: url('Nassim.ttf')[...];
