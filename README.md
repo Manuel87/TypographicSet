@@ -117,13 +117,13 @@ Latin, Arabic, Chinese, Italics, Advanced Matching
 	script-order: 			"Latin, Arabic, Chinese, Japanese"
 
 	[Default, Latin] {
-			src: url('Minion-Italic.ttf')[...];
-			font-scale[x]:  		500; /* font-scale: 	1000 (= no change); */
-			font-[A–Z,0–9,.case]-size: 	700;
-			font-[.smcp]-size: 		570;
-			font-baseline: 			250;
-			font-weight-thick: 		75,
-			font-weight-thin: 		20;
+		src: url('Minion-Italic.ttf')[...];
+		font-scale[x]:  		500; /* font-scale: 	1000 (= no change); */
+		font-[A–Z,0–9,.case]-size: 	700;
+		font-[.smcp]-size: 		570;
+		font-baseline: 			250;
+		font-weight-thick: 		75,
+		font-weight-thin: 		20;
 	}
 
 	[Arabic] {
