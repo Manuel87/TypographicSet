@@ -7,9 +7,11 @@
 
 
 ----------------------------------
-#### Usecase
-- Matching Latin and Japanese Fonts: https://commercialtype.com/news/fitfont_from_type_project
+#### Usecases
+- matching Latin and Japanese Fonts: https://commercialtype.com/news/fitfont_from_type_project
 	- live example: https://shop.typeproject.com/en/products/fitfont/ (> Combine with Latin)
+- mix and match Regular and Italics from different fonts
+- ...
 
 
 ----------------------------------
