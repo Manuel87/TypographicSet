@@ -1,4 +1,4 @@
-# CSS--Typographic-Set
+# Typographic Set (for CSS/...)
 
 **A proposal for multi-font typographic sets**
 - This is a raw proposal on how typographic sets could be implemented in CSS
